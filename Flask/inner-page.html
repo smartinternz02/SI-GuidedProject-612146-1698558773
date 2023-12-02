@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="{{url_for('static',filename='style.css')}}">
+    <title>Document</title>
+</head>
+<body>
+    <div class="main-body">
+        <div class="left">
+            <div class="one">
+                <img src="/static/instagram_1384015.png">
+                <img src="/static/linkedin_220343.png">
+                <img src="/static/social_10110417.png">
+                </div>
+                <div class="two">
+                    <div class="home">
+                <img src="/static/home.png">
+                <a href="{{ url_for('index') }}"></a><h3>Home</h3></a>
+                </div>
+                <div class="about">
+                    <img src="/static/info.png">
+                    <a href="{{ url_for('inner_page') }}"></a><h3>About</h3></a>
+                    </div>
+                    <div class="prediction">
+                        <img src="/static/google-docs.png">
+                        <a href="{{ url_for('prediction') }}">   <h3>Prediction</h3></a>
+                        </div>
+                        <div class="contact">
+                            <img src="/static/e-mail.png">
+                            <h3>Contact</h3>
+                            </div>
+                </div>
+            
+        </div>
+        <div class="partright">
+<div class="matter">
+    <h1>About</h1>
+    <p>The objective of this project is to estimate the share prices of the top 5 GPU companies
+         in the market using historical data and current market trends. 
+         The aim is to develop a predictive model that can forecast the future prices of these 
+         companies based on their historical performance and other relevant factors. 
+         The model should take into consideration various economic indicators, industry trends, 
+         company financials, and other relevant data to make accurate predictions. 
+         The analysis should be performed using statistical and machine learning/ Deep learning techniques
+          and the results should be presented in a clear and concise manner. The final output of 
+the project will be a report outlining the predicted share prices of the top 5 GPU companies in the market,
+         along with an analysis of the factors that have contributed to their performance.</p>
+</div>
+<div class="images">
+    <img src="/static/img1.PNG">
+    <img src="/static/img2.PNG">
+    <img src="/static/img3.PNG">
+</div>
+        </div>
+
+    </div>
+</body>
+</html>
